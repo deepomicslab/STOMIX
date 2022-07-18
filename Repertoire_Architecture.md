@@ -1,13 +1,8 @@
-# CNV Heatmap
-`A single cell CNV heatmap with single cells as rows and genomic regions as columns, equied with zoomable cut-dendrogram, cell meta annotation, genome zooming, and local region research and annotation.`
-
-> For quick view of visualization application, please try the demo files in the "Editor" sidebar `Demo File Sets`. Description of demo files is available in [demo data](https://docsc.deepomics.org/#/data/Demo_Data).
-
-> The uploaded input file must match the required format, please check the general accepted [input file format](https://docsc.deepomics.org/#/data/Prepare_Input). 
+# Repertoire Architecture
 
 ## Introduction
 
-The web interface "CNV Heatmap'' is extension version of "CNV View'', by supporting extra functionalities including genome region zooming, local region search, and local region annotation.  
+`Repertoire Architecture` analysis interface wraps [`immunorach 0.7.0`](https://immunarch.com/index.html), which analyses T-cell receptor (TCR) and B-cell receptor (BCR) repertoires
 
 "CNV Heatmap'' enables users to create the cnv heatmap of single cell CNV profiles in following straightforward steps as follow:
 
