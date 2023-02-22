@@ -35,7 +35,7 @@ The output files are:
 - `*_marker_genes.csv`: the list of marker genes. [Download demo.](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_marker_genes.csv)
 - `*_de_markers.csv`: the differential expressed markers among detected clusters. [Download demo.](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_de_markers.csv)
 - `*_marker_gene_exp.csv`: the expression profiles of marker genes. [Download demo.](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_marker_gene_exp.csv)
-- `*_marker_gene_stats.csv`: the quantile stats of marker genes from `Seurat Leiden` cluster. [Download demo.](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_marker_gene_stats.csv)
+- `*_marker_gene_stats.csv`: the quantile stats of marker genes from `Seurat Leiden` cluster. [Download demo.](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_marker_gene_stat.csv)
 
   
 ## Visualization
