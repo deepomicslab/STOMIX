@@ -22,7 +22,7 @@ Parameters:
 
 ```
 
-The output files will stored in './' current working directory, users can specify the output path using `--out_dir`.
+The output files will be stored in current working directory (`./`), users can specify the output path using `--out_dir`.
 
 Download demo files:
 - [in_h5_fn](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_filtered_feature_bc_matrix.h5)
