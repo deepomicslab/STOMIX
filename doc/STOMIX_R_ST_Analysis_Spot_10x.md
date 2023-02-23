@@ -22,6 +22,8 @@ Parameters:
 
 ```
 
+The output files will stored in './' current working directory, users can specify the output path using `--out_dir`.
+
 Download demo files:
 - [in_h5_fn](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_filtered_feature_bc_matrix.h5)
 - [in_image_fn](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_tissue_lowres_image.png)
@@ -29,6 +31,7 @@ Download demo files:
 - [in_scale_fn](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_scalefactors_json.json)
 
 ## Output
+
 The output files are:
 - `*_normalized_counts.csv`: the expression counts normalized by `sctransform`. [Download demo (head 100 lines).](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_normalized_counts_head100.csv)
 - `*_spot_meta.csv`: the spot meta information including scaled spatial coordinates, `PCA` and `UMAP` embedding results, `Seurat Leiden` clustering results, *etc*. [Download demo.](https://raw.githubusercontent.com/deepomicslab/STOMIX/main/demo_data/10xDemoMK_mouse-kidney-section-coronal-1-standard-1-1-0_section1_slice1_spot_meta.csv)
