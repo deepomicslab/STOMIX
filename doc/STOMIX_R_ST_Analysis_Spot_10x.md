@@ -1,4 +1,4 @@
-# STOMIX_ST_10x_Spot_Analysis
+# STOMIX_ST_Analysis_Spot_10x
 ## Introduction
 
 
